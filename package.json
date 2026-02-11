@@ -1,0 +1,17 @@
+{
+    "name": "lipisetu-street-sign-app",
+    "version": "1.0.0",
+    "description": "An AI-powered street sign transliteration and AR app.",
+    "scripts": {
+        "start": "npx http-server . -c-1"
+    },
+    "keywords": [
+        "pwa",
+        "ocr",
+        "translation",
+        "ar",
+        "accessibility"
+    ],
+    "author": "Ajay",
+    "license": "ISC"
+}
