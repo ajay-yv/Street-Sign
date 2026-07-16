@@ -1,337 +1,215 @@
 <div align="center">
 
-# 🛣️ Street Sign Transliteration Tool
+# 🛣️ Inscribed Street Sign Transliteration & Multilingual Accessibility
 
-### AI-Powered Multilingual Street Sign Recognition, Transliteration & Accessibility Platform
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Smart%20India%20Hackathon-2025-orange?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Problem%20Statement-25155-blue?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Theme-Heritage%20%26%20Culture-green?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-
-<img src="https://img.shields.io/badge/OCR-Tesseract.js-success?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/PWA-Offline%20Ready-blue?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Accessibility-Text%20to%20Speech-purple?style=for-the-badge"/>
-
-</p>
+### AI-Powered Street Sign Recognition, Transliteration, Translation, and Voice Assistance
 
 <p align="center">
 
-### 🌍 Breaking Language Barriers Through AI
+<img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 
-**OCR • Transliteration • Translation • Speech Synthesis • Progressive Web App • Offline Support**
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white">
+
+<img src="https://img.shields.io/badge/OCR-Tesseract.js-success?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/PWA-Offline-blue?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/AI-Multilingual-orange?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge">
 
 </p>
 
----
+### Breaking Language Barriers Through Intelligent Street Sign Recognition
 
-## 📖 Overview
+**OCR • Transliteration • Translation • Text-to-Speech • Offline Support • Accessibility**
 
-**Street Sign Transliteration Tool** is an AI-powered web application developed for **Smart India Hackathon 2025** under the **Heritage and Culture** theme.
-
-The application captures street signs using Optical Character Recognition (OCR), detects the language, transliterates text into different scripts, translates meanings into multiple languages, and provides speech output to improve accessibility.
-
-Unlike traditional translation tools, this solution preserves the pronunciation of place names through transliteration while also offering optional translation, making navigation easier across India's multilingual environment. The project also supports offline functionality through Progressive Web App (PWA) technologies.
+</div>
 
 ---
 
-# 📑 Table of Contents
+# 📖 About the Project
 
-* Overview
-* Problem Statement
-* Objectives
-* Proposed Solution
-* Key Features
-* System Architecture
-* Project Workflow
-* Technology Stack
-* Folder Structure
-* Installation
-* Running the Project
-* Usage
-* Research & References
-* Applications
-* Future Scope
-* Contributing
-* License
+**Inscribed Street Sign Transliteration & Multilingual Accessibility** is an AI-powered web application developed to make street signs understandable for people who cannot read the local language.
+
+The system captures text from street sign images using Optical Character Recognition (OCR), transliterates the detected text into different writing systems while preserving pronunciation, translates it into the user's preferred language, and provides speech output for improved accessibility.
+
+The application is designed to assist tourists, migrants, delivery personnel, emergency responders, and visually impaired users in multilingual environments.
 
 ---
 
-# ❗ Problem Statement
+# 🎯 Problem Statement
 
-India is home to hundreds of languages and scripts. Visitors, tourists, emergency responders, delivery personnel, and migrants often struggle to understand street signs written in unfamiliar regional languages.
+In multilingual regions, street signs are often displayed only in the local script, making navigation difficult for visitors and non-native speakers.
 
-Existing translation applications generally focus on language translation rather than transliteration, often changing the pronunciation of place names and reducing navigation accuracy.
+Users frequently face challenges such as:
 
-The challenge is to build an intelligent solution that:
+* Inability to read unfamiliar scripts
+* Difficulty pronouncing place names
+* Navigation errors
+* Delays during emergencies
+* Accessibility limitations for visually impaired individuals
 
-* Detects text from street signs.
-* Preserves pronunciation through transliteration.
-* Supports multiple Indian scripts.
-* Works in both online and offline environments.
-* Provides accessibility through speech output.
-
----
-
-# 🎯 Project Objectives
-
-* Detect street sign text using Optical Character Recognition (OCR).
-* Automatically identify the source language.
-* Transliterate text into multiple Indian and international scripts.
-* Translate the detected content into user-selected languages.
-* Generate speech output for accessibility.
-* Support offline usage using Progressive Web App technologies.
-* Improve navigation for multilingual users.
-* Promote inclusive public infrastructure.
-
----
-
-# 💡 Proposed Solution
-
-The proposed solution combines Artificial Intelligence, OCR, transliteration, translation, and speech synthesis into a single application.
-
-The workflow includes:
-
-1. Capture a street sign image.
-2. Extract text using OCR.
-3. Detect the language.
-4. Transliterate the text while preserving pronunciation.
-5. Translate the meaning if requested.
-6. Generate speech output.
-7. Display multilingual results to the user.
-
-The application is designed to work efficiently on mobile devices and web browsers, making it suitable for tourists, logistics personnel, emergency responders, and visually impaired users.
+This project addresses these challenges by combining OCR, transliteration, translation, and speech technologies into a single accessible platform.
 
 ---
 
 # ✨ Key Features
 
-## 📸 Optical Character Recognition (OCR)
+## 📷 OCR-Based Street Sign Recognition
 
-* Capture street signs using a camera.
-* Upload existing images.
-* Extract printed text accurately.
-* Support multiple Indian scripts.
-
----
-
-## 🌐 Intelligent Transliteration
-
-Unlike conventional translation systems, transliteration preserves pronunciation while converting scripts.
-
-Example:
-
-```
-ಬೆಂಗಳೂರು
-
-↓
-
-Bengaluru
-```
-
-instead of changing the place name.
+* Capture street sign images
+* Detect printed text
+* Extract multilingual content
+* Real-time OCR processing
 
 ---
 
-## 🌍 Multilingual Translation
+## 🔤 Intelligent Transliteration
 
-Translate recognized text into multiple languages.
+Convert text between different writing systems while preserving pronunciation.
 
-Supported examples include:
+Examples:
+
+* Kannada → English
+* Tamil → Hindi
+* Telugu → English
+* Bengali → English
+* Malayalam → Hindi
+
+---
+
+## 🌍 Multi-Language Translation
+
+Translate recognized street signs into multiple Indian and international languages.
+
+Supported Languages
 
 * English
-* Hindi
 * Kannada
-* Telugu
+* Hindi
 * Tamil
+* Telugu
 * Malayalam
-* Marathi
 * Bengali
+* Marathi
 
 ---
 
 ## 🔊 Text-to-Speech
 
-Generate speech output for recognized street signs.
+Read translated street signs aloud.
 
-Benefits:
+Useful for:
 
-* Accessibility
-* Hands-free navigation
-* Visually impaired assistance
-
----
-
-## 📱 Progressive Web Application
-
-* Installable
-* Mobile friendly
-* Responsive
-* Offline support
+* Visually impaired users
+* Tourists
+* Senior citizens
+* Emergency situations
 
 ---
 
-## ⚡ Offline Mode
+## 📱 Progressive Web Application (PWA)
 
-The application continues to perform essential functions even with limited or no internet connectivity using locally cached resources.
-
----
-
-## 🎯 User-Friendly Interface
-
-* Clean UI
-* Fast response
-* Mobile-first design
-* Simple navigation
+* Installable on mobile devices
+* Responsive interface
+* Offline capability
+* Fast loading
 
 ---
 
-# 🏗️ High-Level System Architecture
+## 🌐 Offline Support
+
+The application continues to provide core functionality even in areas with limited or no internet connectivity.
+
+---
+
+# 🏗️ System Architecture
 
 ```text
-                  User
-                    │
-                    ▼
-         Capture Street Sign
-                    │
-                    ▼
-          Image Preprocessing
-                    │
-                    ▼
-            OCR (Tesseract.js)
-                    │
-                    ▼
-          Language Identification
-                    │
-        ┌───────────┼────────────┐
-        ▼           ▼            ▼
- Transliteration Translation Text-to-Speech
-        │           │            │
-        └───────────┼────────────┘
-                    ▼
-          Display Multilingual Output
+User Captures Street Sign
+            │
+            ▼
+      Image Processing
+            │
+            ▼
+     OCR (Tesseract.js)
+            │
+            ▼
+   Extracted Street Text
+            │
+ ┌──────────┼──────────┐
+ ▼          ▼          ▼
+Script   Translation  Text-to-
+Detection     API      Speech
+ │          │          │
+ └──────────┼──────────┘
+            ▼
+ Multilingual Output
+            │
+            ▼
+ Display & Voice Output
 ```
 
 ---
 
-# 🔄 Project Workflow
+# 🔄 Workflow
 
 ```text
 Capture Image
-
       │
-
       ▼
-
-OCR Processing
-
+OCR Text Extraction
       │
-
       ▼
-
 Language Detection
-
       │
-
       ▼
-
 Transliteration
-
       │
-
       ▼
-
 Translation
-
       │
-
       ▼
-
-Speech Generation
-
+Speech Synthesis
       │
-
       ▼
-
-Display Output
+User Output
 ```
 
 ---
 
-# 🌟 Why This Project?
-
-Unlike conventional OCR applications, this project focuses specifically on **Indian multilingual street signs**, preserving pronunciation through transliteration while improving accessibility with translation and voice assistance.
-
-This makes it particularly valuable for:
-
-* Tourists
-* Delivery partners
-* Emergency services
-* Migrants
-* Government Smart City initiatives
-* Accessibility-focused public infrastructure
-
----
 # 🛠️ Technology Stack
 
-## Frontend
+### Frontend
 
 * HTML5
 * CSS3
 * JavaScript (ES6)
 
----
+### Backend
 
-## OCR Engine
+* Node.js
+* Express.js
+
+### OCR
 
 * Tesseract.js
 
----
+### AI & Language Processing
 
-## Transliteration
-
-* Indic Language Mapping
-* Custom Transliteration Engine
-* Dictionary-based Processing
-
----
-
-## Translation
-
+* Transliteration Engine
 * Translation APIs
-* Multi-language Processing
 
----
+### Accessibility
 
-## Speech Technology
+* Browser Speech Synthesis
+* Text-to-Speech APIs
 
-* Web Speech API
-* Browser Text-to-Speech
+### Progressive Web App
 
----
-
-## Progressive Web App
-
-* Service Workers
-* Web Manifest
-* Offline Cache
-* Installable Web App
-
----
-
-## Development Tools
-
-* Visual Studio Code
-* Git
-* GitHub
-* npm
+* Service Worker
+* Web App Manifest
 
 ---
 
@@ -340,71 +218,35 @@ This makes it particularly valuable for:
 ```text
 Street-Sign/
 │
-├── assets/
-│   ├── icons/
-│   ├── images/
-│   └── screenshots/
-│
-├── css/
-│   └── styles.css
-│
-├── js/
-│   ├── app.js
-│   ├── transliterator.js
-│   ├── dictionary.js
-│   ├── ocr.js
-│   └── speech.js
-│
+├── app.js
+├── transliterator.js
+├── dictionary.js
 ├── index.html
+├── styles.css
 ├── manifest.json
 ├── sw.js
 ├── package.json
-├── README.md
-└── LICENSE
-```
-
----
-
-# ⚙️ Prerequisites
-
-Before running the project, ensure you have:
-
-* Node.js (v18 or above)
-* npm
-* Modern Web Browser
-* Git
-
-Verify installation:
-
-```bash
-node -v
-
-npm -v
-
-git --version
+├── assets/
+└── README.md
 ```
 
 ---
 
 # 🚀 Installation
 
-## Step 1 Clone Repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/street-sign-transliteration-tool.git
+git clone <repository-url>
 ```
 
----
-
-## Step 2 Navigate
+Navigate to the project:
 
 ```bash
-cd street-sign-transliteration-tool
+cd Street-Sign-main
 ```
 
----
-
-## Step 3 Install Dependencies
+Install dependencies:
 
 ```bash
 npm install
@@ -412,539 +254,131 @@ npm install
 
 ---
 
-## Step 4 Build Project
-
-```bash
-npm run build
-```
-
----
-
 # ▶️ Running the Project
 
-## Development Mode
-
-```bash
-npm run dev
-```
-
----
-
-## Production Mode
+Start the development server:
 
 ```bash
 npm start
 ```
 
----
+or
 
-## Using Live Server
-
-If you're using VS Code:
-
-1. Install **Live Server Extension**
-2. Open **index.html**
-3. Right Click
-4. Select
-
-```
-Open with Live Server
+```bash
+node app.js
 ```
 
-Application opens at
-
-```
-http://127.0.0.1:5500
-```
-
----
-
-# 📦 Dependencies
-
-Main libraries used in the project:
-
-```
-Tesseract.js
-
-Web Speech API
-
-Service Worker API
-
-Manifest API
-
-JavaScript ES6
-```
-
----
-
-# ⚙️ Configuration
-
-No additional configuration is required for basic execution.
-
-For production deployment you may configure:
-
-* OCR language packs
-* Translation API keys
-* Cache size
-* Offline resources
-* Browser permissions
-
----
-
-# 🌐 Browser Compatibility
-
-| Browser | Supported |
-| ------- | --------- |
-| Chrome  | ✅         |
-| Edge    | ✅         |
-| Firefox | ✅         |
-| Safari  | ✅         |
-| Opera   | ✅         |
-
----
-
-# 📱 Progressive Web App Features
-
-The application behaves like a native mobile app.
-
-Features include:
-
-* Installable
-* Responsive
-* Offline Mode
-* Fast Loading
-* Background Cache
-* Mobile Optimized
-
----
-
-# 📸 How It Works
-
-### Step 1
-
-Open the application.
-
-↓
-
-### Step 2
-
-Capture or upload a street sign.
-
-↓
-
-### Step 3
-
-OCR extracts the text.
-
-↓
-
-### Step 4
-
-Language detection begins automatically.
-
-↓
-
-### Step 5
-
-Choose preferred language.
-
-↓
-
-### Step 6
-
-View transliterated result.
-
-↓
-
-### Step 7
-
-Translate if required.
-
-↓
-
-### Step 8
-
-Listen using Text-to-Speech.
-
----
-
-# 🔒 Security
-
-The project follows good practices:
-
-* Browser sandboxing
-* Secure APIs
-* Offline cache protection
-* Permission-based camera access
-* No unnecessary data storage
-
----
-
-# ⚡ Performance
-
-Optimized for:
-
-* Fast OCR
-* Low latency
-* Mobile devices
-* Rural connectivity
-* Offline execution
-* Lightweight architecture
-
----
-
-# 💻 Deployment
-
-Deploy easily on
-
-* GitHub Pages
-* Netlify
-* Vercel
-* Firebase Hosting
-* Cloudflare Pages
-
----
-
-# 🌍 Accessibility
-
-The project follows accessibility principles by providing:
-
-* Speech Output
-* Simple Navigation
-* Large Buttons
-* Responsive Layout
-* Screen Reader Friendly Design
-* Mobile Accessibility
-
----
-# 🧠 OCR Processing Pipeline
-
-The application uses **Optical Character Recognition (OCR)** to convert street sign images into machine-readable text.
+Open your browser and visit:
 
 ```text
-Street Sign Image
-        │
-        ▼
-Image Preprocessing
-        │
-        ▼
-Noise Removal
-        │
-        ▼
-Contrast Enhancement
-        │
-        ▼
-OCR Engine (Tesseract.js)
-        │
-        ▼
-Extracted Text
+http://localhost:3000
 ```
-
-### OCR Features
-
-* High-quality text extraction
-* Supports multiple Indian scripts
-* Handles printed street signs
-* Image preprocessing for improved accuracy
-* Fast recognition on desktop and mobile devices
 
 ---
 
-# 🔤 Transliteration Pipeline
+# 📋 Prerequisites
 
-Unlike translation, transliteration preserves pronunciation while converting text into another script.
+* Node.js (v18 or later)
+* npm
+* Modern web browser (Chrome, Edge, Firefox)
 
-Example:
+Verify installation:
 
-```text
-ಬೆಂಗಳೂರು
-        │
-        ▼
-Bengaluru
+```bash
+node -v
+npm -v
 ```
 
-Instead of changing the meaning, the pronunciation remains the same.
+---
 
-### Supported Scripts
+# 🌍 Supported Languages
 
-* Kannada
-* Telugu
-* Tamil
-* Malayalam
-* Hindi
-* Marathi
-* Bengali
 * English
-
----
-
-# 🌍 Translation Workflow
-
-When users require meaning instead of pronunciation, the application performs translation.
-
-```text
-Detected Text
-       │
-       ▼
-Language Detection
-       │
-       ▼
-Translation Engine
-       │
-       ▼
-Selected Language
-       │
-       ▼
-Display Translation
-```
-
-This enables visitors from different linguistic backgrounds to understand street signs more easily.
-
----
-
-# 🔊 Text-to-Speech Workflow
-
-The application includes speech synthesis for accessibility.
-
-```text
-Recognized Text
-        │
-        ▼
-Selected Language
-        │
-        ▼
-Speech Engine
-        │
-        ▼
-Audio Output
-```
-
-### Benefits
-
-* Hands-free navigation
-* Accessibility for visually impaired users
-* Correct pronunciation assistance
-* Improved usability while driving
-
----
-
-# 📊 Complete Data Flow
-
-```text
-Camera / Gallery
-        │
-        ▼
-Street Sign Image
-        │
-        ▼
-Image Processing
-        │
-        ▼
-OCR Extraction
-        │
-        ▼
-Language Detection
-        │
- ┌──────┼─────────────┐
- ▼      ▼             ▼
-Translation  Transliteration  Speech
-        │      │             │
-        └──────┼─────────────┘
-               ▼
-      User-Friendly Output
-```
+* Kannada
+* Hindi
+* Tamil
+* Telugu
+* Malayalam
+* Bengali
+* Marathi
 
 ---
 
 # 🎯 Real-World Applications
 
-## 🏙 Smart Cities
-
-Enable multilingual navigation for residents and visitors.
-
----
-
-## 🚑 Emergency Services
-
-* Ambulance
-* Fire Department
-* Police
-
-Quickly understand street names and reach destinations faster.
-
----
-
-## 🚚 Logistics & Delivery
-
-Assist delivery partners in accurately locating addresses written in unfamiliar scripts.
-
----
-
-## 🧳 Tourism
-
-Improve the travel experience for domestic and international tourists by making local street signs understandable.
-
----
-
-## 👨‍👩‍👧 Migrants & New Residents
-
-Help people relocating to a new state navigate cities without needing to learn the local script immediately.
-
----
-
-## 🏛 Government Infrastructure
-
-Support Digital India and Smart City initiatives by making public infrastructure more inclusive.
-
----
-
-# 🌟 Key Benefits
-
-### Social Benefits
-
-* Inclusive navigation
-* Better accessibility
-* Support for visually impaired users
-* Reduced language barriers
-
----
-
-### Economic Benefits
-
-* Increased tourism satisfaction
-* Improved delivery efficiency
-* Faster emergency response
-* Reduced navigation errors
-
----
-
-### Technological Benefits
-
-* AI-powered OCR
-* Intelligent transliteration
-* Offline functionality
-* Progressive Web Application
-* Scalable architecture
-
----
-
-# 📈 Performance Goals
-
-* High OCR accuracy for printed street signs
-* Low response time
-* Lightweight application
-* Cross-platform compatibility
-* Reliable offline support
-* Mobile-first performance
-
----
-
-# ⚠ Challenges
-
-### OCR Accuracy
-
-Street signs may have:
-
-* Low lighting
-* Weather damage
-* Different fonts
-* Shadows
-* Graffiti
-
-### Language Detection
-
-Some Indian scripts share similar visual characteristics, increasing the possibility of incorrect detection.
-
-### Offline Support
-
-Maintaining functionality without internet connectivity while keeping the application lightweight.
-
----
-
-# 💡 Proposed Improvements
-
-* Enhanced image preprocessing
-* AI-based script identification
-* Deep learning OCR models
-* User-assisted correction for detected text
-* Expanded language support
-* Better offline language resources
-
----
-
-# 🔬 Research & References
-
-The project is inspired by current research in OCR and Indic language processing, including:
-
-* **MATra: A Multilingual Attentive Transliteration System for Indian Scripts (2022)** – Transformer-based transliteration for Indic languages.
-* **Towards Deployable OCR Models for Indic Languages (2022)** – OCR recognition for multiple Indian languages using the Mozhi dataset.
-* **Smart Multilingual Sign Boards (2022)** – Recognition of street signs with multilingual conversion and speech output.
-
----
-
-# 🏆 Smart India Hackathon 2025
-
-### Theme
-
-Heritage and Culture
-
-### Category
-
-Software
-
-### Problem Statement
-
-**PS ID: 25155**
-
-**Transliterations Tool for Street Signs**
-
-The project addresses multilingual accessibility for navigation by combining OCR, transliteration, translation, and speech synthesis into a single intelligent application.
+* Smart Cities
+* Tourism
+* Public Transportation
+* Emergency Services
+* Delivery & Logistics
+* Accessibility for Visually Impaired
+* Navigation Assistance
+* Government Infrastructure
 
 ---
 
 # 🚀 Future Enhancements
 
-* AI-powered script detection
-* Real-time camera recognition
-* Augmented Reality overlays
-* GPS integration
-* Offline AI OCR models
-* Voice-controlled navigation
-* Cloud synchronization
-* Route guidance integration
-* Additional international language support
-* Android and iOS applications
+* Real-time Camera OCR
+* GPS-Based Navigation Integration
+* AI-Based Script Recognition
+* Offline Language Models
+* Mobile Application
+* Cloud Synchronization
+* Voice Command Support
+* AR-Based Street Sign Recognition
+* Additional International Languages
 
 ---
 
-# 🛣️ Project Roadmap
+# 🌟 Advantages
 
-* ✅ OCR-based street sign recognition
-* ✅ Multilingual transliteration
-* ✅ Language translation
-* ✅ Text-to-Speech
-* ✅ Offline support
-* 🔄 AI-enhanced OCR
-* 🔄 AR navigation
-* 🔄 GPS integration
-* 🔄 Mobile application
-* 🔄 Cloud services
+* Improves multilingual accessibility
+* Supports inclusive navigation
+* Works in online and offline environments
+* Preserves pronunciation through transliteration
+* Enhances public infrastructure accessibility
+* Easy-to-use interface
 
 ---
 
-# 💼 Potential Users
+# 🤝 Contributing
 
-* Tourists
-* Students
-* Migrants
-* Delivery Partners
-* Government Agencies
-* Smart City Authorities
-* Emergency Services
-* Public Transport Users
+Contributions are welcome.
+
+1. Fork the repository.
+2. Create a feature branch:
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes:
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push your branch:
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request.
 
 ---
 
-# 🌍 Vision
+# 📄 License
 
-To create an intelligent, inclusive, and accessible navigation platform that removes language barriers, making public infrastructure understandable and usable for everyone, regardless of their linguistic background.
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+
+## ⭐ If you found this project useful, consider giving it a Star!
+
+Built to promote multilingual accessibility and inclusive navigation through AI-powered OCR and transliteration.
+
+</div>
